@@ -1,23 +1,33 @@
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+.DS_Store
+.thumbs.db
+node_modules
 
-# Folder config file
-Desktop.ini
+# Quasar core related directories
+.quasar
+/dist
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Cordova related directories and files
+/src-cordova/node_modules
+/src-cordova/platforms
+/src-cordova/plugins
+/src-cordova/www
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Capacitor related directories and files
+/src-capacitor/www
+/src-capacitor/node_modules
 
-# Windows shortcuts
-*.lnk
+# BEX related directories and files
+/src-bex/www
+/src-bex/js/core
 
-# =========================
-# Operating System Files
-# =========================
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
